@@ -60,7 +60,7 @@ try:
     ms = translator.translate(text_simplified, dest = "ms").text
     zh = translator.translate(text_simplified, dest = "zh-cn").text 
 except Exception as e:
-    print("Translation failed:", e)
+    print("translation failed:", e)
     en = ""
     ms = ""
     zh = ""
